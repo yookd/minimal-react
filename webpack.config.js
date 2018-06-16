@@ -2,8 +2,9 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: [
+    'babel-polyfill',
     'react-hot-loader/patch',
-    './src/index.js'
+    './src/index.jsx'
   ],
   module: {
     rules: [
